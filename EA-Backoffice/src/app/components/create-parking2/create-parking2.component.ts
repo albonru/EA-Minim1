@@ -21,7 +21,7 @@ export class CreateParking2Component implements OnInit {
     type: new FormControl('', [Validators.required]),
     price: new FormControl('', [Validators.required]),
     size: new FormControl('', [Validators.required]),
-    difficulty: new FormControl('', [Validators.required, Validators.max(2)]),
+    difficulty: new FormControl('', [Validators.required, Validators.max(5)]),
     country: new FormControl('Spain', Validators.required),
     city: new FormControl('', [Validators.required]),
     street: new FormControl('', [Validators.required]),
